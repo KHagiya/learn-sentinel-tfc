@@ -13,7 +13,7 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "kahoru-org"
+    organization = "kahoru_org"
 
     workspaces {
       name = "sentinel-example"
